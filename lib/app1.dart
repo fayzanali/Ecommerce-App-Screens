@@ -135,7 +135,434 @@ class _App1State extends State<App1> {
                 ),
               ),
             ),
-
+            Container(
+              margin: EdgeInsets.only(top: 160),
+              child: Stack(children: [
+                Container(
+                                margin: EdgeInsets.all(19),
+              width: MediaQuery.of(context).size.width * 0.9,
+              height: MediaQuery.of(context).size.height * 0.2,
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3),
+                    offset: Offset(0.7, 0.7),
+                    spreadRadius: 0.2,
+                    blurRadius: 0.2,
+                  ),
+                ],
+                borderRadius: BorderRadius.circular(15),
+                color: Colors.white,
+              ),
+              child: Positioned(
+                top: 30,
+                left: 15,
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  height: MediaQuery.of(context).size.height * 0.18,
+                  child: Stack(
+                    children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                            width: MediaQuery.of(context).size.width * 0.35,
+                            height: MediaQuery.of(context).size.height * 0.2,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              image: DecorationImage(
+                                image: AssetImage("assets/note20.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                            )),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 130, top: 5),
+                        child: ListTile(
+                            title: Text(
+                              "Note 20 Ultra",
+                              style: TextStyle(
+                                  fontSize: 22, fontWeight: FontWeight.bold),
+                            ),
+                            subtitle: Stack(
+                              children: [
+                                Container(
+                                  child: Stack(
+                                    children: [
+                                      Container(
+                                        margin: EdgeInsets.only(top: 7),
+                                        child: Icon(
+                                          Icons.star_rounded,
+                                          color: Colors.yellow[600],
+                                          size: 25.0,
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(left: 29, top: 10),
+                                        child: Text("5.0 (23 Review)",
+                                        style: TextStyle(
+                                        fontSize: 17,
+                                        ),
+                                        ),
+                                        )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 40),
+                                  child: Text("20 Pieces",
+                                  style: TextStyle(
+                                  fontSize: 17,
+                                  )
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 35,left: 90),
+                                  child: Text("\$90",
+                                  style: TextStyle(
+                                    color: Colors.purple,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                  )),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 70),
+                                  child: Text("Quantity:1",
+                                  style: TextStyle(
+                                    fontSize: 17, 
+                                  ),
+                                  ),
+                                )
+                              ],
+                            )),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+                )
+              ],),
+            ),            
+            Container(
+              margin: EdgeInsets.only(top: 320),
+              child: Stack(children: [
+                Container(
+                                margin: EdgeInsets.all(19),
+              width: MediaQuery.of(context).size.width * 0.9,
+              height: MediaQuery.of(context).size.height * 0.2,
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3),
+                    offset: Offset(0.7, 0.7),
+                    spreadRadius: 0.2,
+                    blurRadius: 0.2,
+                  ),
+                ],
+                borderRadius: BorderRadius.circular(15),
+                color: Colors.white,
+              ),
+              child: Positioned(
+                top: 30,
+                left: 15,
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  height: MediaQuery.of(context).size.height * 0.18,
+                  child: Stack(
+                    children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                            width: MediaQuery.of(context).size.width * 0.35,
+                            height: MediaQuery.of(context).size.height * 0.2,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              image: DecorationImage(
+                                image: AssetImage("assets/macbook air.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                            )),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 130, top: 5),
+                        child: ListTile(
+                            title: Text(
+                              "Macbook Air",
+                              style: TextStyle(
+                                  fontSize: 22, fontWeight: FontWeight.bold),
+                            ),
+                            subtitle: Stack(
+                              children: [
+                                Container(
+                                  child: Stack(
+                                    children: [
+                                      Container(
+                                        margin: EdgeInsets.only(top: 7),
+                                        child: Icon(
+                                          Icons.star_rounded,
+                                          color: Colors.yellow[600],
+                                          size: 25.0,
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(left: 29, top: 10),
+                                        child: Text("5.0 (23 Review)",
+                                        style: TextStyle(
+                                        fontSize: 17,
+                                        ),
+                                        ),
+                                        )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 40),
+                                  child: Text("20 Pieces",
+                                  style: TextStyle(
+                                  fontSize: 17,
+                                  )
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 35,left: 90),
+                                  child: Text("\$90",
+                                  style: TextStyle(
+                                    color: Colors.purple,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                  )),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 70),
+                                  child: Text("Quantity:1",
+                                  style: TextStyle(
+                                    fontSize: 17, 
+                                  ),
+                                  ),
+                                )
+                              ],
+                            )),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+                )
+              ],),
+            ),
+            Container(
+              margin: EdgeInsets.only(top:480),
+              child: Stack(children: [
+                Container(
+                                margin: EdgeInsets.all(19),
+              width: MediaQuery.of(context).size.width * 0.9,
+              height: MediaQuery.of(context).size.height * 0.2,
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3),
+                    offset: Offset(0.7, 0.7),
+                    spreadRadius: 0.2,
+                    blurRadius: 0.2,
+                  ),
+                ],
+                borderRadius: BorderRadius.circular(15),
+                color: Colors.white,
+              ),
+              child: Positioned(
+                top: 30,
+                left: 15,
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  height: MediaQuery.of(context).size.height * 0.18,
+                  child: Stack(
+                    children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                            width: MediaQuery.of(context).size.width * 0.35,
+                            height: MediaQuery.of(context).size.height * 0.2,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              image: DecorationImage(
+                                image: AssetImage("assets/macbook pro.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                            )),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 130, top: 5),
+                        child: ListTile(
+                            title: Text(
+                              "Macbook Pro",
+                              style: TextStyle(
+                                  fontSize: 22, fontWeight: FontWeight.bold),
+                            ),
+                            subtitle: Stack(
+                              children: [
+                                Container(
+                                  child: Stack(
+                                    children: [
+                                      Container(
+                                        margin: EdgeInsets.only(top: 7),
+                                        child: Icon(
+                                          Icons.star_rounded,
+                                          color: Colors.yellow[600],
+                                          size: 25.0,
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(left: 29, top: 10),
+                                        child: Text("5.0 (23 Review)",
+                                        style: TextStyle(
+                                        fontSize: 17,
+                                        ),
+                                        ),
+                                        )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 40),
+                                  child: Text("20 Pieces",
+                                  style: TextStyle(
+                                  fontSize: 17,
+                                  )
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 35,left: 90),
+                                  child: Text("\$90",
+                                  style: TextStyle(
+                                    color: Colors.purple,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                  )),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 70),
+                                  child: Text("Quantity:1",
+                                  style: TextStyle(
+                                    fontSize: 17, 
+                                  ),
+                                  ),
+                                )
+                              ],
+                            )),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+                )
+              ],),
+            ),
+            Container(
+              margin: EdgeInsets.only(top:640),
+              child: Stack(children: [
+                Container(
+                                margin: EdgeInsets.all(19),
+              width: MediaQuery.of(context).size.width * 0.9,
+              height: MediaQuery.of(context).size.height * 0.2,
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3),
+                    offset: Offset(0.7, 0.7),
+                    spreadRadius: 0.2,
+                    blurRadius: 0.2,
+                  ),
+                ],
+                borderRadius: BorderRadius.circular(15),
+                color: Colors.white,
+              ),
+              child: Positioned(
+                top: 30,
+                left: 15,
+                child: Container(
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  height: MediaQuery.of(context).size.height * 0.18,
+                  child: Stack(
+                    children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                            width: MediaQuery.of(context).size.width * 0.35,
+                            height: MediaQuery.of(context).size.height * 0.2,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              image: DecorationImage(
+                                image: AssetImage("assets/gamingpc.jpg"),
+                                fit: BoxFit.fill,
+                              ),
+                            )),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 130, top: 5),
+                        child: ListTile(
+                            title: Text(
+                              "Gaming PC",
+                              style: TextStyle(
+                                  fontSize: 22, fontWeight: FontWeight.bold),
+                            ),
+                            subtitle: Stack(
+                              children: [
+                                Container(
+                                  child: Stack(
+                                    children: [
+                                      Container(
+                                        margin: EdgeInsets.only(top: 7),
+                                        child: Icon(
+                                          Icons.star_rounded,
+                                          color: Colors.yellow[600],
+                                          size: 25.0,
+                                        ),
+                                      ),
+                                      Container(
+                                        margin: EdgeInsets.only(left: 29, top: 10),
+                                        child: Text("5.0 (23 Review)",
+                                        style: TextStyle(
+                                        fontSize: 17,
+                                        ),
+                                        ),
+                                        )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 40),
+                                  child: Text("20 Pieces",
+                                  style: TextStyle(
+                                  fontSize: 17,
+                                  )
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 35,left: 90),
+                                  child: Text("\$90",
+                                  style: TextStyle(
+                                    color: Colors.purple,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                  )),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(top: 70),
+                                  child: Text("Quantity:1",
+                                  style: TextStyle(
+                                    fontSize: 17, 
+                                  ),
+                                  ),
+                                )
+                              ],
+                            )),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+                )
+              ],),
+            ),
             Center(
               child: Column(
                 children: [

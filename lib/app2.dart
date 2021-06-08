@@ -156,8 +156,9 @@ class _App2State extends State<App2> {
             ),
           ),
           Align(
-            alignment: Alignment.bottomCenter,
+            alignment: Alignment.bottomLeft,
             child: Container(
+              margin: EdgeInsets.only(left: 120),
               child: ElevatedButton(onPressed: (){Navigator.pop(context);},
               child: Icon(
                 Icons.home
@@ -167,7 +168,7 @@ class _App2State extends State<App2> {
           Align(
             alignment: Alignment.bottomRight,
             child: Container(
-              margin: EdgeInsets.only(right: 60),
+              margin: EdgeInsets.only(right: 120),
               child: ElevatedButton(onPressed: (){Navigator.pop(context);},
               child: Icon(
                 Icons.arrow_forward
