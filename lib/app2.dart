@@ -1,6 +1,5 @@
-// import 'dart:html';
-
 import 'package:flutter/material.dart';
+import 'package:flutter3/app3.dart';
 
 class App2 extends StatefulWidget {
   const App2({Key key}) : super(key: key);
